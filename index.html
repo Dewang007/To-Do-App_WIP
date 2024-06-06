@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="/To-Do App/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <label for="title">Title: *</label>
+            <input type="text" id="title" required>
+            <label for="description">Description: *</label>
+            <textarea id="description" required></textarea>
+            <button id="saveButton">Save</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="todoList">
+                    <!-- To-Do items will be here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/To-Do App/script.js"></script>
+</body>
+</html>
